@@ -1,0 +1,185 @@
+/* body{
+	background-image: url("fon.jpg");
+} */
+
+.header{
+    display: flex;
+}
+
+.BasketCart{
+    text-align: right;
+    height: 25px;
+    width: 25px;
+    margin-left: 15px;
+}
+
+.Basket{
+    display: flex;
+    text-align: right;
+    height: 27px;
+    margin: 0 0 0 35%;
+    cursor: pointer;
+
+}
+
+.NameShop{
+    margin: 0 0 0 45% ;
+}
+
+.autorizeb:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.Basket:hover{
+    outline: 2px solid #000;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.autorize{
+    margin: 0 0 0 3%;
+    cursor: pointer;
+}
+
+.findname{
+    display: flex;
+    justify-content: center;
+}
+
+.findtext{
+    width: 400px;
+    outline: 2px solid rgb(133, 28, 28);
+    border: 3px solid #fff;
+    border-radius: 3px;
+}
+
+.inputfiltr{
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+.filteritem{
+    width: 15%;
+    margin-left: 1em;
+    outline: 2px solid rgb(69, 206, 87);
+    border: 3px solid #fff;
+    border-radius: 7px;
+    background-color: #46424C;
+    color: white;
+
+}
+/* .diag label{
+  float: left;
+} */
+.typeinfo
+{
+    margin-bottom: 2em;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+}
+
+.processors{
+    margin-bottom: 2em;
+}
+
+.diag{
+    margin-bottom: 2em;
+}
+
+.system{
+    margin-bottom: 2em;
+}
+
+.diagp{
+    width: 60px;
+}
+
+.valuep{
+    width: 60px;
+}
+
+.buttom{
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2em;
+    /* justify-content: space-between; */
+}
+
+.block{
+
+    margin-left: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    outline: 2px solid rgb(48, 35, 167);
+    border: 3px solid #fff;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.value{
+    margin-bottom: 2em;
+}
+
+.block:hover{
+    transform: scale(1.01);
+}
+
+.infottop{
+    /* display:grid; */
+    /* margin-left: 8em ; */
+    /* grid-template-columns: 34rem  5rem; */
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 3em; */
+
+}
+
+.buttonbuy{
+    margin-top: 5em;
+
+}
+
+.buy:hover{
+    background-color: rgb(13, 230, 103);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.list{
+  width: 85%;
+}
+
+.img{
+  width: 20%;
+}
+
+.infot{
+  width: 80%;
+  margin-right: 1em;
+}
+
+.infottopbuy{
+  text-align: center;
+}
+
+.find{
+  display: flex;
+  justify-content: center;
+}
+.botarcher{
+  bottom:0;
+  justify-content: space-between;
+}
+
+.infottopname{
+  justify-content: space-between;
+
+}
+.infosrc{
+  margin-top: 5em;
+}
